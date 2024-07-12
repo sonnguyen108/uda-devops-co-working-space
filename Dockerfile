@@ -5,7 +5,7 @@ USER root
 
 WORKDIR /app
 
-COPY ./analytics/* .
+COPY ./analytics/* ./
 
 # Dependencies are installed during build time in the container itself so we don't have OS mismatch
 #RUN sudo apt update -y && \
