@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: coworking-app
-        image: 527273097195.dkr.ecr.us-east-1.amazonaws.com/co-working-space-app:0.0.1
+        image: 435720610029.dkr.ecr.us-east-1.amazonaws.com/co-working-space-app:1.0.0
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
