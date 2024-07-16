@@ -4,7 +4,7 @@ metadata:
   name: coworking-service-db-configmap
 data:
   # property-like keys; each key maps to a simple value
-  DB_HOST: "10.100.13.39"
+  DB_HOST: "10.100.82.246"
   DB_PORT: "5432"
   DB_USERNAME: "user"
   DB_NAME: "ha-app"
